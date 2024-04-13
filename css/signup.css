@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+}
+
+header .logo{
+    width: 15%;
+}
+header .logo img{
+    height: 70px;
+}
+header nav{
+    width: 80%;
+}
+@media(max-width:550px){
+    header{
+        width: 100%;
+        height: 50px;
+    } 
+    header .logo img{
+        width: 20px;       
+        height: 15px; 
+        margin-left: 0px;
+    }   
+    header nav{
+        width: 80%;
+        justify-content: space-around;
+        font-size: x-small;
+    }
+}
+@media (max-width:1000px) {
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    header .logo img{
+        width: 100px;
+    }
+    header nav{
+        width: 80%;
+        justify-content: space-around;
+       
+    }
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Itim', cursive;
+    line-height: 30px;
+}
+nav ul li a:hover{
+    color: gold;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li ul{
+    color: white;
+    width: 280px;
+    min-height: 50px;
+    border-radius: 20px;
+    background-color:rgb(24, 68, 35);
+    display: none;
+    position: absolute;
+    line-height: 40px;
+    font-size: 20px;
+}
+nav ul li:hover ul{
+    display: block;
+    z-index: 1;
+}
+nav ul li i{
+    margin: 5px;
+}
+main::before{
+    content: "";
+    position: absolute;
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+main{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    z-index: 1;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(83, 70, 70);
+    margin: 50px 0px;
+    border-radius: 10px;
+    border:none;
+    opacity: 0.8;
+}
+h1{
+    color: white;
+    margin-left: 25px;
+}
+.form-group1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.form-control1{
+    width: 45%;
+    height: 40px;
+    border: none;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+.container p{
+    font-size: large;
+    margin: 25px 15px 0px 25px;
+    color: white;
+    
+}
+.form-group{
+    width: 95%;
+    margin: 10px 20px;
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.form-group3{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.form-group3 .select{
+    width: 32%;
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+}
+.form-group3 .box{
+    height: 40px;
+    width: 25%;
+    background-color: aqua;
+    text-align: center;
+    font-size: x-large;
+    line-height: 35px;
+    border-radius: 5px;
+}
+.form-group4{
+    width: 50%;
+    margin: auto;
+}
+.btn-success{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: large;
+    padding-left: 10px;
+    
+}
+
+
+
+
+
+
+
+footer{
+    background-color:black;
+    width: 100%;
+    height: 150px;  
+}
+.follow{
+    color: white;
+    font-family: 'Aboreto', cursive;
+    font-size: 27px;
+    text-align: right;
+}
+.follow i{
+    padding: 10px;
+}
+.follow i:hover{
+    font-size: 32px;
+}
+
+.follow i:nth-child(1){
+    color: blue;
+}
+.follow i:nth-child(2){
+    color:  #00acee;
+}
+.follow i:nth-child(3){
+    color: rgb(0, 226, 0);
+}
+.lists{
+    width: 90%;
+    margin: auto;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+}
+.lists ul li{
+    width: 20%;
+}
+.lists ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+.lists ul li a:hover{
+    color: gold;
+}

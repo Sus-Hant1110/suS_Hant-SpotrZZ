@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+}
+
+header .logo {
+    width: 15%;
+}
+
+header .logo img {
+    height: 70px;
+}
+
+header nav {
+    width: 80%;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Itim', cursive;
+    line-height: 30px;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul {
+    color: white;
+    width: 280px;
+    min-height: 50px;
+    border-radius: 20px;
+    background-color: rgb(24, 68, 35);
+    display: none;
+    position: absolute;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+nav ul li:hover ul {
+    display: block;
+    z-index: 1;
+    
+}
+
+nav ul li i {
+    margin: 5px;
+}
+
+ul li img {
+    width: 30px;
+}
+
+.header2 {
+    width: 100%;
+    background-color: red;
+    height: 20px;
+}
+.header2 a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+.header2 a:hover {
+    color: rgb(2, 2, 90);
+    font-weight: bolder;
+}
+
+body {
+    width: 100%;
+    min-height: 500px;
+}
+.top-container {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+aside {
+    width: 23%;
+    height: 750px;
+    background-color: rgb(46, 19, 19);
+
+}
+
+
+
+aside h3 {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-block-end: 0px;
+}
+
+aside ul p {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    line-height: 0px;
+    font-size: 12px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+aside ul li {
+    list-style: none;
+    line-height: 30px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+aside ul li a:hover {
+    color: green;
+}
+
+aside p {
+    color: rgb(183, 247, 7);
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 0px;
+    font-family: 'Aboreto', cursive;
+}
+
+aside img {
+    width: 100%;
+    height: 140px;
+}
+
+aside img:hover {
+    opacity: 0.9;
+}
+
+main {
+    width: 1030px;
+    height: 570px;
+}
+
+main video {
+    width: 100%;
+}
+
+.links-container {
+    width: 1030px;
+    margin-left: 318px;
+    height: 175px;
+    background-color: rgb(36, 30, 30);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.links-container h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-block-end: 0px;
+}
+
+.links-container h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 5px;
+    font-family: 'Kalam', cursive;
+    margin-left: 20px;
+    color: rgb(5, 127, 241);
+    margin-bottom: 15px;
+
+}
+
+.links-container .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-container .boxes .box {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(22, 10, 22);
+    text-align: center;
+}
+
+.links-container .boxes .box a {
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.boxes .box :hover {
+    background-color: green;
+}
+
+.subscribe-container::before {
+    content: "";
+    position: absolute;
+    opacity: 0.6;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+}
+
+.subscribe-container {
+    width: 99%;
+    margin: auto;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.paragraph p {
+    min-width: 300px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 300px;
+    font-style: italic;
+}
+
+.info {
+    color: white;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.subscribe-container .box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 30px;
+    margin-left: 550px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: -170px;
+}
+
+.subscribe-container .box a {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.subscribe-container .box a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.follow {
+    color: white;
+    font-family: 'Aboreto', cursive;
+    font-size: 27px;
+    text-align: right;
+}
+
+.follow i {
+    padding: 10px;
+}
+
+.follow i:hover {
+    font-size: 32px;
+}
+
+.follow i:nth-child(1) {
+    color: blue;
+}
+
+.follow i:nth-child(2) {
+    color: #00acee;
+}
+
+.follow i:nth-child(3) {
+    color: rgb(0, 226, 0);
+}
+
+.lists {
+    width: 90%;
+    margin: auto;
+}
+
+.lists ul {
+    display: flex;
+    list-style: none;
+}
+
+.lists ul li {
+    width: 20%;
+}
+
+.lists ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.lists ul li a:hover {
+    color: gold;
+}
+
+@media (max-width: 500px) {
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    header .logo img{
+        width: 100px;
+    }
+    header nav {
+        width: 80%;
+        margin: auto;
+    }
+    header ul li a{
+        font-size: 13px;
+    }
+    .header2{
+        display: none;
+    }
+    .top-container{
+        width: 100%;
+
+    }
+    aside{
+        width: 20%;
+        height: 208px;
+    }
+    aside h3{
+        font-size: 8px;
+    }
+    aside ul p{
+        font-size: 8px;
+        min-width: 60px;
+        margin-left: -10px;
+    }
+    aside ul li a{
+        font-size: 8px;
+        margin-left: -30px;
+    }
+    aside img{
+        display: none;
+    }
+    aside .info{
+        display: none;
+    }
+    main{
+        width: 75%;
+        height: 100vh;
+    }
+    main video{
+        width: 100%;    
+    }
+    .links-container{
+        width: 50%;
+        left: 0px;
+    }
+}
