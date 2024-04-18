@@ -103,7 +103,7 @@ body {
 aside {
     width: 23%;
     height: 750px;
-    background-color: rgb(65, 213, 226);
+    background-color:black;
 
 }
 
@@ -193,7 +193,7 @@ main video {
     margin-top: 5px;
     font-family: 'Kalam', cursive;
     margin-left: 20px;
-    color: rgb(5, 127, 241);
+    color: black;
     margin-bottom: 15px;
 
 }
@@ -208,7 +208,7 @@ main video {
     width: 100px;
     height: 30px;
     border-radius: 20px;
-    background-color: rgb(22, 10, 22);
+    background-color: blue;
     text-align: center;
 }
 

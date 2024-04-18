@@ -6,7 +6,7 @@ body{
 header{
     width: 100%;
     height: 70px;
-    background-color: purple;
+    background-color:blue;
     display: flex;
 }
 
@@ -73,7 +73,7 @@ nav ul li ul{
     width: 280px;
     min-height: 50px;
     border-radius: 20px;
-    background-color:rgb(24, 68, 35);
+    background-color:blue;
     display: none;
     position: absolute;
     line-height: 40px;
@@ -110,7 +110,7 @@ main{
 .container{
     width: 50%;
     height: 600px;
-    background-color: rgb(83, 70, 70);
+    background-color: red;
     margin: 50px 0px;
     border-radius: 10px;
     border:none;
@@ -164,7 +164,7 @@ h1{
 .form-group3 .box{
     height: 40px;
     width: 25%;
-    background-color: aqua;
+    background-color:skyblue;
     text-align: center;
     font-size: x-large;
     line-height: 35px;
@@ -177,7 +177,7 @@ h1{
 .btn-success{
     width: 100%;
     height: 40px;
-    background-color: green;
+    background-color: blue;
     border: none;
     margin-top: 20px;
     color: white;
@@ -197,7 +197,7 @@ h1{
 
 
 footer{
-    background-color:black;
+    background-color:blue;
     width: 100%;
     height: 150px;  
 }
